@@ -3,7 +3,6 @@
 # 👋 hi, i'm Tiago
 
 **full-stack developer from portugal** 🇵🇹
-i build the product *and* run the team shipping it
 
 [![Portfolio](https://img.shields.io/badge/portfolio-09090b?style=for-the-badge&logo=vercel&logoColor=fafafa&labelColor=27272a)](https://breaddevv.cc)
 [![Discord](https://img.shields.io/badge/discord-09090b?style=for-the-badge&logo=discord&logoColor=fafafa&labelColor=27272a)](https://discord.com/users/90156252594927932)
