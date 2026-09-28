@@ -2,7 +2,7 @@
 
 # 👋 hi, i'm Tiago
 
-**full-stack developer & operator from portugal** 🇵🇹
+**full-stack developer from portugal** 🇵🇹
 i build the product *and* run the team shipping it
 
 [![Portfolio](https://img.shields.io/badge/portfolio-09090b?style=for-the-badge&logo=vercel&logoColor=fafafa&labelColor=27272a)](https://breaddevv.cc)
