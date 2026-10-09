@@ -4,7 +4,7 @@
 
 **full-stack developer from portugal** 🇵🇹
 
-[![Portfolio](https://img.shields.io/badge/portfolio-09090b?style=for-the-badge&logo=vercel&logoColor=fafafa&labelColor=27272a)](https://breaddevv.cc)
+[![Portfolio](https://img.shields.io/badge/portfolio-09090b?style=for-the-badge&logo=vercel&logoColor=fafafa&labelColor=27272a)](https://tiagodevs.net)
 [![Discord](https://img.shields.io/badge/discord-09090b?style=for-the-badge&logo=discord&logoColor=fafafa&labelColor=27272a)](https://discord.com/users/90156252594927932)
 [![Email](https://img.shields.io/badge/email-09090b?style=for-the-badge&logo=gmail&logoColor=fafafa&labelColor=27272a)](mailto:tiagu.1789@gmail.com)
 
