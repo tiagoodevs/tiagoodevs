@@ -33,7 +33,7 @@ i'm also taking a multimedia course to grow as a graphic designer, photographer 
 
 ## 🧭 where to find me
 
-| | |
+| where | link |
 |:--|:--|
 | 🌐 **portfolio** | [tiagodevs.net](https://tiagodevs.net) |
 | 💼 **linkedin** | [https://www.linkedin.com/in/tiagoodevs/](https://www.linkedin.com/in/tiagoodevs/) |
@@ -63,8 +63,6 @@ open-source feedback platform for product teams.
 Discord bot that automates server boost management.
 
 ---
-
-## ⚡ stack
 
 ## ⚡ stack
 
