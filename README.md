@@ -33,7 +33,6 @@ i'm also taking a multimedia course to grow as a graphic designer, photographer 
 
 ## 🧭 where to find me
 
-| | |
 |:--|:--|
 | 🌐 **portfolio** | [tiagodevs.net](https://tiagodevs.net) |
 | 💼 **linkedin** | [https://www.linkedin.com/in/tiagoodevs/](https://www.linkedin.com/in/tiagoodevs/) |
