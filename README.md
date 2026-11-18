@@ -1,113 +1,26 @@
 <div align="center">
-
-<img src="./assets/hero.png" alt="Hi there, waving hand over blurred foliage" width="100%" />
-
-**full-stack developer from portugal** 🇵🇹
-
-[![Portfolio](https://img.shields.io/badge/portfolio-1c2922?style=for-the-badge&logo=firefox&logoColor=fafafa&labelColor=3d6b52)](https://tiagodevs.net)
-[![LinkedIn](https://img.shields.io/badge/linkedin-1c2922?style=for-the-badge&logo=linkedin&logoColor=fafafa&labelColor=3d6b52)](https://linkedin.com/in/YOUR-HANDLE)
-[![Discord](https://img.shields.io/badge/discord-1c2922?style=for-the-badge&logo=discord&logoColor=fafafa&labelColor=3d6b52)](https://discord.com/users/90156252594927932)
-[![Email](https://img.shields.io/badge/email-1c2922?style=for-the-badge&logo=gmail&logoColor=fafafa&labelColor=3d6b52)](mailto:tiagu.1789@gmail.com)
-
+<a href="https://tiagodevs.net"><img src="./assets/hero.jpg" alt="A waving hand in front of sunlit green foliage" width="100%" /></a>
 </div>
-
-
-## ✦ hey, i'm tiago
-
-
-i'm a full-stack developer from portugal with 5 years of experience building things on the web. i'm passionate about innovating, and i specialize in web applications, Discord integrations and multimedia design, combining creativity with technical precision.
-
-these days i'm mostly shipping features, maintaining infrastructure and reviewing PRs across a few products i'm involved in.
-
-i'm also taking a multimedia course to grow as a graphic designer, photographer and coder. i like to aim for the best in school, with A* grades and a regular spot on my school's merit board.
-
-**outside of work**
-
-📸 i'd rather be out taking photos than stuck indoors
-
-🎧 when i'm inside (usually when it's raining), it's coding and music
-
-😴 and i will always make time for a really good sleep
-
----
-
-## 🧭 where to find me
-
-| where | link |
-|:--|:--|
-| 🌐 **portfolio** | [tiagodevs.net](https://tiagodevs.net) |
-| 💼 **linkedin** | [https://www.linkedin.com/in/tiagoodevs/](https://www.linkedin.com/in/tiagoodevs/) |
-| 💬 **discord** | [message me](https://discord.com/users/90156252594927932) |
-| 📧 **email** | [tiagu.1789@gmail.com](mailto:tiagu.1789@gmail.com) |
-
----
-
-## 🛠️ what i'm working on
-
-[**🏢 Paddlewheel Inc.**](https://paddlewheel.org) · COO -
-leading operations and product across HR and management platforms.
-
-[**📡 Monitry**](https://monitry.net) · Director -
-uptime monitoring and status pages. [try the beta](https://beta.monitry.net)
-
-[**Delivr**](https://delivrroblox.net) · Director -
-hub system for Roblox communities. handles distribution, tracking and management in one place.
-
-**🛰️ [Orbit](https://github.com/planetaryorbit/orbit)**
-HR SaaS for staffing, ops and community management. built and maintained end to end.
-
-**💬 [Usercue](https://github.com/Paddlewheel-Inc/usercue)**
-open-source feedback platform for product teams.
-
-**🚀 [Boostify](https://github.com/teamboostify/boostify)**
-Discord bot that automates server boost management.
-
----
-
-## ⚡ stack
-
-<details open>
-<summary><b>languages</b></summary>
-<br>
-
-[![Languages](https://skillicons.dev/icons?i=js,ts,py,go,rust,php,c,cpp)](https://skillicons.dev)
-
-</details>
-
-<details open>
-<summary><b>frontend</b></summary>
-<br>
-
-[![Frontend](https://skillicons.dev/icons?i=html,css,react,nextjs,tailwind,angular)](https://skillicons.dev)
-
-</details>
-
-<details open>
-<summary><b>backend & data</b></summary>
-<br>
-
-[![Backend and data](https://skillicons.dev/icons?i=nodejs,express,prisma,supabase,mongodb,postgres,docker)](https://skillicons.dev)
-
-</details>
-
-<details open>
-<summary><b>tooling</b></summary>
-<br>
-
-[![Tooling](https://skillicons.dev/icons?i=git,github,vscode,obsidian,bash,pnpm,bun,yarn,npm,arch)](https://skillicons.dev)
-
-</details>
-
----
-
-## 🤝 let's build something
-
-i'm always up for interesting projects, collabs, or just talking shop about products and infra. the fastest way to reach me is discord or email.
 
 <div align="center">
-
-![Stats](./profile/stats.svg)
-
-<sub>build • lead • ship • repeat</sub>
-
+<br />
+<a href="https://tiagodevs.net"><img src="https://img.shields.io/badge/portfolio-1b2721?style=flat-square&logo=firefoxbrowser&logoColor=9dc6ab&labelColor=1b2721" alt="portfolio" /></a> <a href="https://www.linkedin.com/in/tiagoodevs/"><img src="https://img.shields.io/badge/linkedin-1b2721?style=flat-square&logo=linkedin&logoColor=9dc6ab&labelColor=1b2721" alt="linkedin" /></a> <a href="https://discord.com/users/90156252594927932"><img src="https://img.shields.io/badge/discord-1b2721?style=flat-square&logo=discord&logoColor=9dc6ab&labelColor=1b2721" alt="discord" /></a> <a href="mailto:tiagu.1789@gmail.com"><img src="https://img.shields.io/badge/email-1b2721?style=flat-square&logo=gmail&logoColor=9dc6ab&labelColor=1b2721" alt="email" /></a>
 </div>
+
+<div align="center">
+<br />
+<img src="./assets/card-about.svg" width="59%" alt="hey, i'm tiago — a full-stack developer from portugal with five years of experience building web apps, discord integrations and multimedia design. also studying multimedia, with A* grades and a spot on the school merit board." /> <img src="./assets/card-currently.svg" width="39.3%" alt="currently: COO at Paddlewheel, director at Monitry and Delivr; building Orbit, Usercue and Boostify." /><br />
+<img src="./profile/stats.svg" width="47.5%" alt="tiago's github stats" /> <img src="./profile/top-langs.svg" width="50.5%" alt="most used languages" /><br />
+<img src="./assets/card-stack.svg" width="98%" alt="stack: typescript, javascript, python, go, rust, php, react, next.js, tailwind, angular, node.js, prisma, postgres, supabase, mongodb, docker, git, github, vs code, bun, pnpm and arch." /><br />
+<img src="./assets/card-offclock.svg" width="39.3%" alt="off the clock: photography, coding with music on rainy days, and a good night's sleep." /> <a href="https://tiagodevs.net"><img src="./assets/card-talk.svg" width="59%" alt="let's build something — collabs, products and infra chats are always welcome. find me at tiagodevs.net, on discord or by email." /></a>
+</div>
+
+<div align="center">
+<br />
+<sub><b>the work</b> · <a href="https://paddlewheel.org">paddlewheel</a> · <a href="https://monitry.net">monitry</a> · <a href="https://delivrroblox.net">delivr</a> · <a href="https://github.com/planetaryorbit/orbit">orbit</a> · <a href="https://github.com/Paddlewheel-Inc/usercue">usercue</a> · <a href="https://github.com/teamboostify/boostify">boostify</a></sub><br />
+<br />
+<sub>build • lead • ship • repeat</sub>
+</div>
+
+<!-- cards: edit assets/build_cards.py and run `python3 assets/build_cards.py` -->
+<!-- stats: refreshed daily by .github/workflows/grs.yml -->

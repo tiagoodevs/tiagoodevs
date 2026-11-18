@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #fafafa;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #c9d8cc;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #fafafa;
+      fill: #7fb08f;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #fafafa;
+      stroke: #7fb08f;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #fafafa;
+      stroke: #7fb08f;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -114,12 +114,12 @@
           class="card-bg"
           x="0.5"
           y="0.5"
-          rx="4.5"
-          height="99%"
-          stroke="#e4e2e2"
+          rx="20"
+          height="194"
+          stroke="#2f4a3b"
           width="466"
-          fill="#ffffff00"
-          stroke-opacity="0"
+          fill="#1b2721"
+          stroke-opacity="1"
         />
 
         
