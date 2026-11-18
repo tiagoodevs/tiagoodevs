@@ -39,20 +39,9 @@ ABOUT_LINES = [
     "reviewing prs across a few products i care about.",
 ]
 ABOUT_FACTS = [
-    ("BASED IN", "portugal"),
+    ("BASED IN", "🇵🇹"),
     ("EXPERIENCE", "5 years"),
     ("STUDYING", "multimedia"),
-]
-
-LEADING = [
-    ("Paddlewheel", "COO"),
-    ("Monitry", "Director"),
-    ("Delivr", "Director"),
-]
-BUILDING = [
-    ("Orbit", "HR SaaS"),
-    ("Usercue", "feedback"),
-    ("Boostify", "discord bot"),
 ]
 
 STACK = [
@@ -67,8 +56,6 @@ OFF_CLOCK = [
     ("headphones", "headphones on", "rainy days, code and music"),
     ("moon", "asleep by midnight", "non-negotiable"),
 ]
-
-# --------------------------------------------------------------------- helpers
 
 
 def esc(text: str) -> str:
@@ -177,9 +164,7 @@ def decor(cx, cy, radius=132):
     lines.append("  </g>")
     return lines
 
-
-# ----------------------------------------------------------------------- cards
-
+# cards
 
 def about_card():
     w, h = 630, 420
@@ -187,12 +172,8 @@ def about_card():
         "title": "About Tiago, full-stack developer from Portugal",
         "lines": [
             card_rect(w, h),
-            *decor(556, 76),
-            label(44, 64, "FULL-STACK DEVELOPER"),
-            label(w - 44, 64, "PORTUGAL", anchor="end"),
-            text(44, 138, "hey, i'm tiago", size=46, fill=TEXT, weight=700, spacing="-0.5"),
-            spark(378, 118, 12),
-            *[text(44, 188 + i * 28, line, size=16.5) for i, line in enumerate(ABOUT_LINES)],
+            text(44, 92, "👋 I'm Tiago", size=46, fill=TEXT, weight=700, spacing="-0.5"),
+            *[text(44, 140 + i * 28, line, size=16.5) for i, line in enumerate(ABOUT_LINES)],
             f'  <line x1="44" y1="308" x2="{w - 44}" y2="308" stroke="{STROKE}"/>',
             *[
                 part
@@ -206,31 +187,6 @@ def about_card():
     }
     return wrap(w, h, body)
 
-
-def currently_card():
-    w, h = 420, 420
-    lines = [
-        card_rect(w, h),
-        label(44, 64, "CURRENTLY"),
-        text(44, 112, "wearing a few hats", size=25, fill=TEXT, weight=600, spacing="-0.3"),
-        label(44, 150, "LEADING"),
-    ]
-    y = 180
-    for name, role in LEADING:
-        lines.append(f'  <circle cx="48" cy="{y - 5}" r="3" fill="{DOT}"/>')
-        lines.append(text(62, y, name, size=16, fill=TEXT, weight=600))
-        lines.append(text(w - 44, y, role, size=12, fill=MUTED, anchor="end"))
-        y += 32
-    lines.append(f'  <line x1="44" y1="272" x2="{w - 44}" y2="272" stroke="{STROKE}"/>')
-    lines.append(label(44, 300, "BUILDING"))
-    y = 328
-    for name, role in BUILDING:
-        lines.append(f'  <circle cx="48" cy="{y - 5}" r="3" fill="{DOT}" opacity="0.55"/>')
-        lines.append(text(62, y, name, size=15.5, fill=TEXT, weight=600))
-        lines.append(text(w - 44, y, role, size=12, fill=MUTED, anchor="end"))
-        y += 28
-    body = {"title": "What Tiago is working on", "lines": lines}
-    return wrap(w, h, body)
 
 
 def stack_card():
@@ -308,7 +264,6 @@ def main():
     out = Path(__file__).resolve().parent
     cards = {
         "card-about.svg": about_card,
-        "card-currently.svg": currently_card,
         "card-stack.svg": stack_card,
         "card-offclock.svg": offclock_card,
         "card-talk.svg": talk_card,
