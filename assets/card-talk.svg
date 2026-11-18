@@ -1,0 +1,31 @@
+<svg width="600" height="320" viewBox="0 0 600 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Get in touch with Tiago</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset="1" stop-color="#0b0b0b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="12" y="12" width="576" height="296" rx="20"/>
+    </clipPath>
+  </defs>
+  <rect x="12" y="12" width="576" height="296" rx="20" fill="url(#bg)" stroke="#2a2a2a"/>
+  <g clip-path="url(#cardClip)">
+    <circle cx="516" cy="80" r="130" fill="url(#glow)"/>
+    <path d="M 458 80 A 58 58 0 0 1 516 22" stroke="#ffffff" stroke-opacity="0.20" stroke-width="1.2" fill="none"/>
+    <path d="M 430 80 A 86 86 0 0 1 516 -6" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.2" fill="none"/>
+    <path d="M 402 80 A 114 114 0 0 1 516 -34" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.2" fill="none"/>
+  </g>
+  <text x="44" y="60" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">LET'S BUILD SOMETHING</text>
+  <text x="44" y="132" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#fafafa" letter-spacing="-0.4">got an idea, a bug,</text>
+  <text x="44" y="172" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="700" fill="#fafafa" letter-spacing="-0.4">or just want to talk shop?</text>
+  <text x="44" y="214" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="400" fill="#b8b8b8">collabs, products and infra chats are always welcome.</text>
+  <line x1="44" y1="248" x2="556" y2="248" stroke="#2a2a2a"/>
+  <text x="44" y="284" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600" fill="#cfcfcf">tiagodevs.net</text>
+  <path d="M 178 278 h 30 m -8 -6 l 8 6 l -8 6" stroke="#cfcfcf" stroke-width="1.6" fill="none"/>
+  <text x="556" y="284" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#8a8a8a" text-anchor="end">discord · email</text>
+</svg>

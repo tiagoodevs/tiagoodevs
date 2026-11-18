@@ -19,21 +19,24 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
 
-      - name: Generate stats card (light)
+      - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&text_color=1f2328&icon_color=1f2328&title_color=1f2328&ring_color=1f2328&hide_border=true&count_private=true&include_all_commits=true
-          path: profile/stats-light.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&bg_color=0d0d0d&border_color=2a2a2a&text_color=b8b8b8&title_color=fafafa&icon_color=d6d6d6&ring_color=d6d6d6&hide_border=false&border_radius=20&card_width=420
+          path: profile/stats.svg
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: Generate stats card (dark)
+      - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&text_color=fafafa&icon_color=fafafa&title_color=fafafa&ring_color=fafafa&hide_border=true&count_private=true&include_all_commits=true
-          path: profile/stats-dark.svg
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=0d0d0d&border_color=2a2a2a&text_color=b8b8b8&title_color=fafafa&hide_border=false&border_radius=20&card_width=420
+          path: profile/top-langs.svg
           token: ${{ secrets.GH_TOKEN }}
+
+      - name: Desaturate top languages card
+        run: python3 scripts/grayscale.py profile/top-langs.svg
 
       - name: Commit and push
         run: |

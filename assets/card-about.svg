@@ -1,0 +1,38 @@
+<svg width="630" height="420" viewBox="0 0 630 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">About Tiago, full-stack developer from Portugal</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset="1" stop-color="#0b0b0b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="12" y="12" width="606" height="396" rx="20"/>
+    </clipPath>
+  </defs>
+  <rect x="12" y="12" width="606" height="396" rx="20" fill="url(#bg)" stroke="#2a2a2a"/>
+  <g clip-path="url(#cardClip)">
+    <circle cx="556" cy="76" r="132" fill="url(#glow)"/>
+    <path d="M 498 76 A 58 58 0 0 1 556 18" stroke="#ffffff" stroke-opacity="0.20" stroke-width="1.2" fill="none"/>
+    <path d="M 470 76 A 86 86 0 0 1 556 -10" stroke="#ffffff" stroke-opacity="0.15" stroke-width="1.2" fill="none"/>
+    <path d="M 442 76 A 114 114 0 0 1 556 -38" stroke="#ffffff" stroke-opacity="0.10" stroke-width="1.2" fill="none"/>
+  </g>
+  <text x="44" y="64" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">FULL-STACK DEVELOPER</text>
+  <text x="586" y="64" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8" text-anchor="end">PORTUGAL</text>
+  <text x="44" y="138" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="700" fill="#fafafa" letter-spacing="-0.5">hey, i'm tiago</text>
+  <path d="M 378 106 Q 379.92 116.08 390 118 Q 379.92 119.92 378 130 Q 376.08 119.92 366 118 Q 376.08 116.08 378 106 Z" fill="#ffffff" opacity="1.0"/>
+  <text x="44" y="188" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="400" fill="#b8b8b8">five years building for the web — product features,</text>
+  <text x="44" y="216" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="400" fill="#b8b8b8">discord integrations and a healthy dose of design.</text>
+  <text x="44" y="244" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="400" fill="#b8b8b8">these days i'm shipping, keeping infra alive and</text>
+  <text x="44" y="272" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16.5" font-weight="400" fill="#b8b8b8">reviewing prs across a few products i care about.</text>
+  <line x1="44" y1="308" x2="586" y2="308" stroke="#2a2a2a"/>
+  <text x="44" y="340" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">BASED IN</text>
+  <text x="44" y="370" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600" fill="#fafafa">portugal</text>
+  <text x="234" y="340" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">EXPERIENCE</text>
+  <text x="234" y="370" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600" fill="#fafafa">5 years</text>
+  <text x="424" y="340" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">STUDYING</text>
+  <text x="424" y="370" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600" fill="#fafafa">multimedia</text>
+</svg>

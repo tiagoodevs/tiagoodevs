@@ -1,0 +1,40 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">What Tiago is working on</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151515"/>
+      <stop offset="1" stop-color="#0b0b0b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="cardClip">
+      <rect x="12" y="12" width="396" height="396" rx="20"/>
+    </clipPath>
+  </defs>
+  <rect x="12" y="12" width="396" height="396" rx="20" fill="url(#bg)" stroke="#2a2a2a"/>
+  <text x="44" y="64" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">CURRENTLY</text>
+  <text x="44" y="112" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="25" font-weight="600" fill="#fafafa" letter-spacing="-0.3">wearing a few hats</text>
+  <text x="44" y="150" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">LEADING</text>
+  <circle cx="48" cy="175" r="3" fill="#c7c7c7"/>
+  <text x="62" y="180" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#fafafa">Paddlewheel</text>
+  <text x="376" y="180" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8a8a8a" text-anchor="end">COO</text>
+  <circle cx="48" cy="207" r="3" fill="#c7c7c7"/>
+  <text x="62" y="212" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#fafafa">Monitry</text>
+  <text x="376" y="212" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8a8a8a" text-anchor="end">Director</text>
+  <circle cx="48" cy="239" r="3" fill="#c7c7c7"/>
+  <text x="62" y="244" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="600" fill="#fafafa">Delivr</text>
+  <text x="376" y="244" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8a8a8a" text-anchor="end">Director</text>
+  <line x1="44" y1="272" x2="376" y2="272" stroke="#2a2a2a"/>
+  <text x="44" y="300" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#cfcfcf" letter-spacing="1.8">BUILDING</text>
+  <circle cx="48" cy="323" r="3" fill="#c7c7c7" opacity="0.55"/>
+  <text x="62" y="328" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#fafafa">Orbit</text>
+  <text x="376" y="328" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8a8a8a" text-anchor="end">HR SaaS</text>
+  <circle cx="48" cy="351" r="3" fill="#c7c7c7" opacity="0.55"/>
+  <text x="62" y="356" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#fafafa">Usercue</text>
+  <text x="376" y="356" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8a8a8a" text-anchor="end">feedback</text>
+  <circle cx="48" cy="379" r="3" fill="#c7c7c7" opacity="0.55"/>
+  <text x="62" y="384" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#fafafa">Boostify</text>
+  <text x="376" y="384" font-family="-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8a8a8a" text-anchor="end">discord bot</text>
+</svg>
