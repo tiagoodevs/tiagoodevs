@@ -19,20 +19,20 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           fetch-depth: 0
 
-      - name: Generate stats card
+      - name: Generate stats card (light)
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&count_private=true&include_all_commits=true&bg_color=1b2721&border_color=2f4a3b&text_color=c9d8cc&title_color=f4f8f4&icon_color=7fb08f&ring_color=7fb08f&hide_border=false&border_radius=20&card_width=420
-          path: profile/stats.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&text_color=1f2328&icon_color=1f2328&title_color=1f2328&ring_color=1f2328&hide_border=true&count_private=true&include_all_commits=true
+          path: profile/stats-light.svg
           token: ${{ secrets.GH_TOKEN }}
 
-      - name: Generate top languages card
+      - name: Generate stats card (dark)
         uses: stats-organization/github-readme-stats-action@v2
         with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=1b2721&border_color=2f4a3b&text_color=c9d8cc&title_color=f4f8f4&hide_border=false&border_radius=20&card_width=420
-          path: profile/top-langs.svg
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=transparent&text_color=fafafa&icon_color=fafafa&title_color=fafafa&ring_color=fafafa&hide_border=true&count_private=true&include_all_commits=true
+          path: profile/stats-dark.svg
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Commit and push
