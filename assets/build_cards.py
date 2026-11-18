@@ -1,39 +1,24 @@
 #!/usr/bin/env python3
-"""Generates the bento cards in this folder.
-
-GitHub strips CSS from READMEs, so the cards are plain SVG images that get
-committed and referenced from README.md. Edit the CONTENT below and run:
-
-    python3 assets/build_cards.py
-
-The README expects these exact filenames.
-"""
-
 from pathlib import Path
 
-# ---------------------------------------------------------------- design tokens
-
-BG_TOP = "#151515"
-BG_BOTTOM = "#0b0b0b"
+BG = "#0d0d0d"
 STROKE = "#2a2a2a"
 TEXT = "#fafafa"
 BODY = "#b8b8b8"
 MUTED = "#8a8a8a"
-ACCENT = "#cfcfcf"
+ACCENT = "#cfcfcf88"
 GLOW = "#ffffff"
 PILL_BG = "#161616"
 PILL_STROKE = "#333333"
 PILL_TEXT = "#e6e6e6"
 DOT = "#c7c7c7"
 
-FONT = "-apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif"
+FONT = "Inter, -apple-system, 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" # based on system fonts, download if you dont have the font
 MARGIN = 12
 RADIUS = 20
 
-# --------------------------------------------------------------------- content
-
 ABOUT_LINES = [
-    "five years building for the web — product features,",
+    "five years building for the web, such as, product features,",
     "discord integrations and a healthy dose of design.",
     "these days i'm shipping, keeping infra alive and",
     "reviewing prs across a few products i care about.",
@@ -95,7 +80,7 @@ def pills(x, center_y, labels, gap=10):
         w = pill_width(label)
         out.append(
             f'  <rect x="{cx}" y="{center_y - 16}" width="{w}" height="32" '
-            f'rx="16" fill="{PILL_BG}" stroke="{PILL_STROKE}"/>'
+            f'rx="8" fill="{PILL_BG}" stroke="{PILL_STROKE}"/>'
         )
         out.append(
             text(cx + w / 2, center_y + 4.5, label, size=13, fill=PILL_TEXT, weight=500, anchor="middle")
@@ -112,14 +97,6 @@ def wrap(width, height, body):
     return f"""<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
   <title id="title">{esc(body.pop('title'))}</title>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="{BG_TOP}"/>
-      <stop offset="1" stop-color="{BG_BOTTOM}"/>
-    </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="{GLOW}" stop-opacity="0.10"/>
-      <stop offset="1" stop-color="{GLOW}" stop-opacity="0"/>
-    </radialGradient>
     <clipPath id="cardClip">
       <rect x="{MARGIN}" y="{MARGIN}" width="{width - 2 * MARGIN}" height="{height - 2 * MARGIN}" rx="{RADIUS}"/>
     </clipPath>
@@ -132,7 +109,7 @@ def wrap(width, height, body):
 def card_rect(w, h):
     return (
         f'  <rect x="{MARGIN}" y="{MARGIN}" width="{w - 2 * MARGIN}" height="{h - 2 * MARGIN}" '
-        f'rx="{RADIUS}" fill="url(#bg)" stroke="{STROKE}"/>'
+        f'rx="{RADIUS}" fill="{BG}" stroke="{STROKE}"/>'
     )
 
 
@@ -147,15 +124,6 @@ def spark(cx, cy, r, fill=GLOW, opacity=1.0):
     return f'  <path d="{d}" fill="{fill}" opacity="{opacity}"/>'
 
 
-def arcs(cx, cy):
-    out = []
-    for i, r in enumerate((58, 86, 114)):
-        out.append(
-            f'  <path d="M {cx - r} {cy} A {r} {r} 0 0 1 {cx} {cy - r}" '
-            f'stroke="{GLOW}" stroke-opacity="{0.20 - i * 0.05:.2f}" stroke-width="1.2" fill="none"/>'
-        )
-    return out
-
 
 def decor(cx, cy, radius=132):
     lines = ['  <g clip-path="url(#cardClip)">']
@@ -164,23 +132,21 @@ def decor(cx, cy, radius=132):
     lines.append("  </g>")
     return lines
 
-# cards
-
 def about_card():
-    w, h = 630, 420
+    w, h = 630, 350
     body = {
         "title": "About Tiago, full-stack developer from Portugal",
         "lines": [
             card_rect(w, h),
             text(44, 92, "👋 I'm Tiago", size=46, fill=TEXT, weight=700, spacing="-0.5"),
             *[text(44, 140 + i * 28, line, size=16.5) for i, line in enumerate(ABOUT_LINES)],
-            f'  <line x1="44" y1="308" x2="{w - 44}" y2="308" stroke="{STROKE}"/>',
+            f'  <line x1="44" y1="240" x2="{w - 44}" y2="240" stroke="{STROKE}"/>',
             *[
                 part
                 for i, (cap, value) in enumerate(ABOUT_FACTS)
                 for part in (
-                    label(44 + i * 190, 340, cap),
-                    text(44 + i * 190, 370, value, size=19, fill=TEXT, weight=600),
+                    label(44 + i * 180, 270, cap),
+                    text(44 + i * 180, 300, value, size=19, fill=TEXT, weight=600),
                 )
             ],
         ],
@@ -190,11 +156,10 @@ def about_card():
 
 
 def stack_card():
-    w, h = 880, 320
+    w, h = 880, 360
     lines = [
         card_rect(w, h),
-        label(44, 62, "STACK"),
-        text(w - 44, 62, "the short list", size=12.5, fill=MUTED, anchor="end"),
+        text(44, 62, "Tools I use", 24),
     ]
     centers = (116, 172, 228, 284)
     for (cap, items), cy in zip(STACK, centers):
@@ -223,11 +188,10 @@ def icon(kind, cx, cy):
 
 
 def offclock_card():
-    w, h = 400, 320
+    w, h = 450, 350
     lines = [
         card_rect(w, h),
         label(44, 60, "OFF THE CLOCK"),
-        *decor(w - 40, 70, 120),
     ]
     y = 120
     for kind, title, sub in OFF_CLOCK:
@@ -243,10 +207,9 @@ def offclock_card():
 
 
 def talk_card():
-    w, h = 600, 320
+    w, h = 900, 320
     lines = [
         card_rect(w, h),
-        *decor(516, 80, 130),
         label(44, 60, "LET'S BUILD SOMETHING"),
         text(44, 132, "got an idea, a bug,", size=32, fill=TEXT, weight=700, spacing="-0.4"),
         text(44, 172, "or just want to talk shop?", size=32, fill=TEXT, weight=700, spacing="-0.4"),

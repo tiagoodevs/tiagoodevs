@@ -12,10 +12,11 @@
 
 <div align="center">
 <br />
-<img src="./assets/card-about.svg" width="59%" alt="hey, i'm tiago — a full-stack developer from portugal with five years of experience building for the web." /> <img src="./assets/card-currently.svg" width="39.3%" alt="currently: COO at Paddlewheel, director at Monitry and Delivr; building Orbit, Usercue and Boostify." /><br />
+<img src="./assets/card-about.svg" width="59%" alt="hey, i'm tiago — a full-stack developer from portugal with five years of experience building for the web." />
+<img src="./assets/card-offclock.svg" width="40%" alt="off the clock: photography, coding with music on rainy days, and a good night's sleep." /><br />
 <img src="./profile/stats.svg" width="47.5%" alt="tiago's github stats" /> <img src="./profile/top-langs.svg" width="50.5%" alt="most used languages" /><br />
 <img src="./assets/card-stack.svg" width="98%" alt="stack: typescript, javascript, python, go, rust, php, react, next.js, tailwind, angular, node.js, prisma, postgres, supabase, mongodb, docker, git, github, vs code, bun, pnpm and arch." /><br />
-<img src="./assets/card-offclock.svg" width="39.3%" alt="off the clock: photography, coding with music on rainy days, and a good night's sleep." /> <a href="https://tiagodevs.net"><img src="./assets/card-talk.svg" width="59%" alt="let's build something — collabs, products and infra chats are always welcome. find me at tiagodevs.net, on discord or by email." /></a>
+ <a href="https://tiagodevs.net"><img src="./assets/card-talk.svg" width="100%" alt="let's build something — collabs, products and infra chats are always welcome. find me at tiagodevs.net, on discord or by email." /></a>
 </div>
 
 <div align="center">

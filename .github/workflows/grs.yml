@@ -31,7 +31,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=12&bg_color=0d0d0d&border_color=2a2a2a&text_color=b8b8b8&title_color=fafafa&hide_border=false&border_radius=20&card_width=420
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&bg_color=0d0d0d&border_color=2a2a2a&text_color=b8b8b8&title_color=fafafa&hide_border=false&border_radius=20&card_width=420
           path: profile/top-langs.svg
           token: ${{ secrets.GH_TOKEN }}
 
@@ -47,5 +47,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Updated README cards"
+          git commit -m "Update readme TOP LANG card"
           git push origin HEAD:main
